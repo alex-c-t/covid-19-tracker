@@ -1,0 +1,43 @@
+.infoBox {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .infoBox:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .infoBox--selected {
+    border-top: 10px solid greenyellow;
+  }
+  
+  .infoBox--orange {
+    border-color: #437dfb;
+  }
+  .infoBox--green {
+    border-color: #7dd71d;
+  }
+  .infoBox--red {
+    border-color: #CC1034;
+  }
+  
+  .infoBox__cases--green {
+    color: #7dd71d !important;
+  }
+  .infoBox__cases--orange {
+    color: #437dfb !important;
+  }
+  
+  .infoBox__cases {
+    color: #CC1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .infoBox__total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+  }
